@@ -43,10 +43,10 @@ $(function(){
       });
 
   $('.jcarousel-pagination')
-      .on('jcarouselpagination:active', 'a', function() {
+      .on('jcarouselpagination:active', function() {
        $(this).addClass('active');
       })
-      .on('jcarouselpagination:inactive', 'a', function() {
+      .on('jcarouselpagination:inactive', function() {
        $(this).removeClass('active');
       })
       .jcarouselPagination()

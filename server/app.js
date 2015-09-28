@@ -11,6 +11,7 @@ var server = app.listen(process.env.PORT, function(){
     var port = server.address().port;
     console.log("Listening at port: " + port);
 
+    //process.env.PORT
 });
 
 app.use(express.static(__dirname + '/public'));
