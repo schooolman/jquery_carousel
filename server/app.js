@@ -7,7 +7,7 @@ var app = express();
 
 var studentInfo = require('./public/assets/data/students.json')
 
-var server = app.listen(3000, function(){
+var server = app.listen(process.env.PORT, function(){
     var port = server.address().port;
     console.log("Listening at port: " + port);
 
