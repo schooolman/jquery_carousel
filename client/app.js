@@ -12,7 +12,7 @@ $(function(){
      var studentDescription = response[iterator].description;
      var studentShout = response[iterator].shoutout;
      //console.log(response[iterator].name);
-   $(".classInfo").append("<li><div class='slide'>" + studentName + "</br></br>" + studentDescription + "</br></br>" + studentShout + "</div></li>");
+   $(".classInfo").append("<li><div class='slide'><h3>" + studentName + "</h3></br></br>" + studentDescription + "</br></br>" + studentShout + "</div></li>");
 
   }
 
